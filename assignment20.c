@@ -3,7 +3,7 @@
 #include <time.h>  
 int main() {
    
-    srand(time(0));
+    srand(time(NULL));
 
     
     int coin_toss_result = rand() % 2;
@@ -16,4 +16,5 @@ int main() {
     }
 
     return 0;
+
 }
